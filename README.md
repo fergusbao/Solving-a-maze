@@ -1,10 +1,23 @@
 # Solving a maze problem
 
-This is a Java implementation of solving a maze problem. Given a maze, we are going to find the path from start position 'S' to the mouse position 'G'. https://www.cs.bu.edu/teaching/alg/maze/
+This is a Java implementation of solving a maze problem. Given a maze, we are going to find the path from start position 'S' to the goal/mouse position 'G'. 
+(https://www.cs.bu.edu/teaching/alg/maze/)
+
+```
+S#####      '.'	- where the robot can move (open positions)
+.....#      '#'	- obstacles (blocked positions)
+#.####      'S'	- start position (here, x=0, y=0)
+#.####      'G'	- goal (here, x=5, y=4)
+...#.G
+##...#
+```
 
 Here is the sample output of the code.
 
+
+```
 This is the original maze:
+
 
 S#####
 .....#
@@ -12,6 +25,7 @@ S#####
 #.####
 ...#.G
 ##...#
+
 
 The path is made up of these '+'s in the graph below.
 
@@ -27,3 +41,4 @@ S#####
 
 Here is the coordinates which constitute the path,
 (0, 0)->(1, 0)->(1, 1)->(2, 1)->(3, 1)->(4, 1)->(4, 2)->(5, 2)->(5, 3)->(5, 4)->(4, 4)->(4, 5)
+```
